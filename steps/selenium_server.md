@@ -1,5 +1,6 @@
 ### Install and Configure Selenium Server
 
+
 1) Install Python 3
 ```
 yum -y install python3
