@@ -22,8 +22,9 @@
 3) Create MariaDB database, user and table
 4) Install Flask and its dependancies
 5) Make a directory for the Flask app
-6) Download the Flask app from [here](https://github.com/hadriane/scripts/tree/master/app/flask) files to /opt/flaskapp
+6) Download the Flask app files from [here](https://github.com/hadriane/scripts/tree/master/app/flask) to /opt/flaskapp
 7) Move into /opt/flaskapp and start the Flask dev server
+8) Check if you can access the webpage
 
 **[Selenium Server](https://github.com/hadriane/unit_testing_python_selenium/blob/master/steps/selenium_server.md)**
 1) Install Python 3, wget and bzip2
