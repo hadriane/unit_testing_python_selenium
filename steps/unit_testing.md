@@ -1,7 +1,7 @@
 **Unit Testing The Flask App**
 
 1) Download the python Selenium [script](https://github.com/hadriane/scripts/blob/master/unittest/selenium_flaskapp.py) to the Selenium server'
-2) Change the IP address in the code to the Flask app server
+2) Change the IP address in the code to the public IP of Flask app server
 ```
 driver.get("http://3.234.207.87:5000/")
 ```
