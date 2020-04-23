@@ -21,13 +21,30 @@ mysql -e "FLUSH PRIVILEGES"
 mysql -e "USE flaskapp; CREATE TABLE users(name varchar(20), email varchar(40))"
 mysql -e "UPDATE mysql.user SET Password = PASSWORD('StaySafe') WHERE User = 'root'"
 ```
-4) Install Flask
+4) Install Flask and its dependancies
 ```
-pip3 install Flask
+pip3 install Flask pyyaml flask_mysqldb
 ```
 5) Make a directory for the Flask app
 ```
 mkdir /opt/flaskapp
 ```
 6) Download the Flask app from [here](https://github.com/hadriane/scripts/tree/master/app/flask) files to /opt/flaskapp
-6) 
+7) Move into /opt/flaskapp and start the Flask dev server
+```
+[root@ip-172-31-3-22 ~]# cd /opt/flaskapp/
+[root@ip-172-31-3-22 flaskapp]# python3 app.py
+app.py:7: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  db = yaml.load(open('db.yaml'))
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/opt/flaskapp/app.py:7: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  db = yaml.load(open('db.yaml'))
+ * Debugger is active!
+ * Debugger PIN: 210-114-020
+```
