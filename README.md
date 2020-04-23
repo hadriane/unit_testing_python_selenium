@@ -17,6 +17,13 @@
 ### Overview of Steps
 
 **[Flask App Server]()**
+1) Install Python and MySQl
+2) Enable and start MariaDB
+3) Create MariaDB database, user and table
+4) Install Flask and its dependancies
+5) Make a directory for the Flask app
+6) Download the Flask app from [here](https://github.com/hadriane/scripts/tree/master/app/flask) files to /opt/flaskapp
+7) Move into /opt/flaskapp and start the Flask dev server
 
 **[Selenium Server](https://github.com/hadriane/unit_testing_python_selenium/blob/master/steps/selenium_server.md)**
 1) Install Python 3, wget and bzip2
@@ -32,7 +39,7 @@
 
 **[Unit Testing](https://github.com/hadriane/unit_testing_python_selenium/blob/master/steps/unit_testing.md)**
 1) Download the python Selenium [script](https://github.com/hadriane/scripts/blob/master/unittest/selenium_flaskapp.py) to the Selenium server'
-2) Change the IP address in the code accordingly
+2) Change the IP address in the code to the Flask app server
 4) Run the Selenium script
 5) Go onto Flask app server
 6) Login to MySQL
