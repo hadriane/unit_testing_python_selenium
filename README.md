@@ -1,4 +1,4 @@
-## Frontend Unit Testing Python App With Selenium
+## Frontend Unit Testing A Python App Using Selenium
 
 ### Tools
 
