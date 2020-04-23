@@ -2,10 +2,10 @@
 
 ### Tools
 
-|            | Tools |         |
-|------------|:-----:|:-------:|
-|  Selenium  | Flask |  MySql  |
-| Python 3.6 | Xvfb  |         |
+|            | Tools |           |
+|------------|:-----:|:---------:|
+|  Selenium  | Flask |   MySql   |
+| Python 3.6 | Xvfb  | PhantomJS |
 
 ### Platform
 
