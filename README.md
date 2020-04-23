@@ -2,10 +2,10 @@
 
 ### Tools
 
-|          | Tools |         |
-|----------|:-----:|:-------:|
-| Selenium | Flask |  MySql  |
-| Firefox  | Xvfb  | Firefox |
+|            | Tools |         |
+|------------|:-----:|:-------:|
+|  Selenium  | Flask |  MySql  |
+| Python 3.6 | Xvfb  |         |
 
 ### Platform
 
