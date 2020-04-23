@@ -49,4 +49,4 @@ app.py:7: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated,
  * Debugger PIN: 210-114-020
 ```
 8) Check if you can access the webpage by opening up http://<public_ip_of_flask_server>:5000 in a web browser
-![flask_app](https://github.com/hadriane/unit_testing_python_selenium/blob/master/images/flask_app.png)
+![flask_App](https://github.com/hadriane/unit_testing_python_selenium/blob/master/images/flask_app.png)
