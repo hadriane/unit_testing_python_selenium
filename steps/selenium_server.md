@@ -7,7 +7,7 @@ yum -y install python3 wget bzip2
 ```
 2) Install Firefox and headless dependancies
 ```
-yum -y install firefox Xvfb libXfont Xorg
+yum -y install Xvfb libXfont Xorg
 yum -y groupinstall "X Window System" "Desktop" "Fonts" "General Purpose Desktop"
 ```
 3) Install Selenium
