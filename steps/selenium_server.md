@@ -3,7 +3,7 @@
 
 1) Install Python 3, wget and bzip2
 ```
-yum -y install python3
+yum -y install python3 wget bzip2
 ```
 2) Install Firefox and headless dependancies
 ```
