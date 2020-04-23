@@ -4,7 +4,7 @@
 
 |            | Tools |           |
 |------------|:-----:|:---------:|
-|  Selenium  | Flask |   MySql   |
+| Selenium   | Flask | MySql     |
 | Python 3.6 | Xvfb  | PhantomJS |
 
 ### Platform
