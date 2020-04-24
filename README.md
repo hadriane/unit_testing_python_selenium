@@ -15,7 +15,7 @@
 
 ### Overview of Steps
 
-**[Flask App Server](https://github.com/hadriane/unit_testing_python_selenium/edit/master/steps/flask_app_server.md)**
+**[Flask App Server](https://github.com/hadriane/unit_testing_python_selenium/blob/master/steps/flask_app_server.md)**
 1) Install Python and MySQl
 2) Enable and start MariaDB
 3) Create MariaDB database, user and table
